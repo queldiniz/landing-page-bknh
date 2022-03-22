@@ -1,19 +1,29 @@
 @charset "utf-8";
 
-@media screen and (min-width: 768px){
-
+@media (min-width: 576px){
+    
+    .linha-cabecalho{
+        width: 100%;
+        border: 4px solid rgba(0, 0, 0, 0.418);
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
     .conteudo-principal-paragrafo{
+        display: flex;
         flex-direction: row;
         width: 100%;
     }
     .conteudo-principal-imagem{
+        display: flex;
         flex-direction: row;
-        min-width: 200px;
-        min-height: 320px;   
-        max-height: 600px;
-        max-width: 400px;
+        width: 200px;
+        height: 320px;   
     }
 }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -74,7 +84,7 @@ a:hover{
     margin-left: 10px; 
 }
 
-.linha-cabecalho{
+.linha-comeco-divisao{
     width: 100%;
     border: 6px solid white;
 }
@@ -121,6 +131,8 @@ a:hover{
     vertical-align: text-top;
     padding-left: 20px;
     justify-content: space-around;
+    height: 600px;
+    width: 400px;
    
 }
 
