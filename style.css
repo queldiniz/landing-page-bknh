@@ -1,5 +1,19 @@
 @charset "utf-8";
 
+@media screen and (min-width: 768px){
+
+    .conteudo-principal-paragrafo{
+        flex-direction: column;
+        width: 100%;
+    }
+    .conteudo-principal-imagem{
+        flex-direction: row;
+        min-width: 200px;
+        min-height: 320px;   
+        max-height: 600px;
+         max-width: 400px;
+    }
+}
 *{
     margin: 0;
     padding: 0;
@@ -101,12 +115,9 @@ a:hover{
 
 .conteudo-principal-imagem{
     flex-direction: row;
-    min-width: 200px;
-    min-height: 320px;
-    max-height: 600px;
-    max-width: 400px;
+    align-items: center;
     gap: 44px;
-    margin: 13px 0px 0px 13px;
+    margin: 3px 0px 0px 13px;
     vertical-align: text-top;
     padding-left: 20px;
     justify-content: space-around;
@@ -116,6 +127,7 @@ a:hover{
 .conteudo-secundario{
     margin: 25px;
     text-align: center;
+    align-items: center;
 }
 
 .conteudo-secundario-paragrafo{
@@ -123,6 +135,7 @@ a:hover{
     color: white;
     text-align: center;
     margin: auto;
+    align-items: center;
    
 }
 
