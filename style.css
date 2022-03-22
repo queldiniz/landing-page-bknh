@@ -1,8 +1,5 @@
 @charset "utf-8";
-@media (min-width: 768px){
-   
-    
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +8,6 @@
 
 body{
     background: linear-gradient(68.15deg, #524d94 16.62%, #f8f66f 85.61%);
-    background-position: 100%;
     background-repeat: none;
     
 }
@@ -19,6 +15,7 @@ body{
 .container{
     margin-top: 56px;
     padding: 0px;
+    
 }
 
 
@@ -89,7 +86,7 @@ a:hover{
     
 
 .conteudo-principal-paragrafo{
-    font-size: 100%;
+    font-size: 25px;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -100,8 +97,10 @@ a:hover{
 }
 
 .conteudo-principal-imagem{
-    height: 600px;
-    width: 480px;
+    min-width: 200px;
+    min-height: 320px;
+    max-height: 600px;
+    max-width: 480px;
     gap: 44px;
     margin: 13px 0px 0px 13px;
     vertical-align: text-top;
